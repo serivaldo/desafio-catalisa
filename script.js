@@ -1,8 +1,18 @@
-const imagem = document.querySelector('img');
+const imagem0 = document.querySelector('#imgem0');
 const botao = document.querySelector('button');
-const nomeDoPersonagem = document.querySelector('#nome');
-const especie = document.querySelector('#especie');
-const condicao = document.querySelector('#status');
+const nomeDoPersonagem0 = document.querySelector('#nome0');
+const especie0 = document.querySelector('#especie0');
+const condicao0 = document.querySelector('#status0');
+
+const imagem1 = document.querySelector('imagem1');
+const nomeDoPersonagem1 = document.querySelector('#nome1');
+const especie1 = document.querySelector('#especie1');
+const condicao1 = document.querySelector('#status1');
+
+const imagem2 = document.querySelector('#imagem2');
+const nomeDoPersonagem2 = document.querySelector('#nome2');
+const especie2 = document.querySelector('#especie2');
+const condicao = document.querySelector('#status2');
 
 gerarValorAleatorio = () => {
     return Math.floor(Math.random() * 671);
