@@ -31,3 +31,29 @@ main > section img {
     width: 300px;
 }
 
+main > button {
+    background-color: #008FFF;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    font-family: EuclidBold;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+    letter-spacing: -0.6px;
+    line-height: 20px;
+    margin: 50px;
+    padding: 9px 23px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#detalhes-container {
+    font-weight: bold;
+    list-style-type: none;
+    padding-left: 1px;
+    width: 100%; 
+
+}
