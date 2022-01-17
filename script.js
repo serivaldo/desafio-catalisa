@@ -5,7 +5,7 @@ const especie = document.querySelector('#especie');
 const condicao = document.querySelector('#status');
 
 gerarValorAleatorio = () => {
-    return Math.floor(Math.random() * 876);
+    return Math.floor(Math.random() * 671);
 }
 
 pegarPersonagem = () => {
@@ -20,7 +20,7 @@ pegarPersonagem = () => {
     imagem.src = data.image;
     imagem.alt= data.name;
     nomeDoPersonagem.innerHTML = data.name;
-    especie.innerHTML = data.specie;
+    especie.innerHTML = data.species;
     condicao.innerHTML = data.status;
 });
 }
